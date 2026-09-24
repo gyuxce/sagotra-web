@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
 :root {
+  --color-deep-purple: #4a266a;
+  --color-deep-purple-dark: #341a4a;
+  --color-saffron: #f3b51b;
+  --color-jade-green: #2f8b68;
+  --color-warm-red: #d94b43;
+  --color-cream: #faf7f2;
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #241a2e;
 }
 
 @theme inline {
+  --color-deep-purple: var(--color-deep-purple);
+  --color-deep-purple-dark: var(--color-deep-purple-dark);
+  --color-saffron: var(--color-saffron);
+  --color-jade-green: var(--color-jade-green);
+  --color-warm-red: var(--color-warm-red);
+  --color-cream: var(--color-cream);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-montserrat);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.focus-ring {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-saffron);
+  outline-offset: 3px;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid rgb(0 0 0 / 0.12);
+  padding: 0.625rem 0.875rem;
+  font-size: 0.875rem;
+  background: white;
+  color: var(--foreground);
+}
+
+.form-input:focus-visible {
+  outline: 2px solid var(--color-saffron);
+  outline-offset: 2px;
 }

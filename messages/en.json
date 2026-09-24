@@ -1,0 +1,204 @@
+{
+  "Metadata": {
+    "siteName": "SAGOTRA",
+    "tagline": "Indonesia Tourism Ecosystem",
+    "defaultTitle": "SAGOTRA — Indonesian Cultural Travel Experiences",
+    "defaultDescription": "SAGOTRA brings together Yogyakarta's heritage, arts, culinary traditions, and local communities as authentic, meaningful travel experiences."
+  },
+  "Nav": {
+    "home": "Home",
+    "experiences": "Experiences",
+    "destinations": "Destinations",
+    "stories": "Stories",
+    "about": "About",
+    "planYourVisit": "Plan Your Visit"
+  },
+  "Footer": {
+    "description": "SAGOTRA connects Indonesian heritage, arts, culinary traditions, local communities, and creativity into one meaningful tourism ecosystem.",
+    "explore": "Explore",
+    "company": "Company",
+    "getInTouch": "Get in Touch",
+    "whatsapp": "Chat on WhatsApp",
+    "rights": "All rights reserved.",
+    "language": "Language"
+  },
+  "Common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "viewDetail": "View Detail",
+    "inquireNow": "Send an Inquiry",
+    "chatWhatsapp": "Chat on WhatsApp",
+    "backTo": "Back to {label}",
+    "priceOnRequest": "Price available upon confirmation",
+    "startingFrom": "From",
+    "perPerson": "/person",
+    "perGroup": "/package",
+    "location": "Location",
+    "category": "Category",
+    "duration": "Duration",
+    "language": "Language"
+  },
+  "Home": {
+    "heroEyebrow": "Indonesia Tourism Ecosystem",
+    "heroTitle": "A gateway to meaningful Indonesian experiences",
+    "heroSubtitle": "SAGOTRA presents Yogyakarta's heritage, arts, culinary traditions, and community life as connected experiences — not just a list of tour packages.",
+    "heroCtaPrimary": "Explore Experiences",
+    "heroCtaSecondary": "Ask About Your Visit",
+    "featuredEyebrow": "Launch Collection",
+    "featuredHeading": "Kadipaten Yogyakarta Experiences",
+    "featuredSubheading": "SAGOTRA's first destination — from royal palaces and heritage residences to living arts communities.",
+    "pillarsEyebrow": "Mandala Pengalaman",
+    "pillarsHeading": "Four pillars of the SAGOTRA experience",
+    "pillarsSubheading": "Every experience we offer begins with one of these pillars, connected together into one cultural tourism ecosystem.",
+    "storyEyebrow": "Our Story",
+    "storyHeading": "Living Culture",
+    "storyBody": "Behind every palace, heritage residence, and studio we introduce, there is a community caring for tradition day by day. SAGOTRA is here to tell that story honestly — not as a spectacle, but as a conversation.",
+    "howItWorksEyebrow": "How It Works",
+    "howItWorksHeading": "From inspiration to a real experience",
+    "howItWorksBody": "Explore our stories and experiences, find what matches your interests, then send an inquiry through WhatsApp or a short form. Our team will reply with availability, pricing, and a proposed itinerary.",
+    "howItWorksStep1Title": "Explore",
+    "howItWorksStep1Body": "Browse our stories and experience catalog by interest, audience, and location.",
+    "howItWorksStep2Title": "Send an Inquiry",
+    "howItWorksStep2Body": "Reach us on WhatsApp or the form with your dates, group size, and interests.",
+    "howItWorksStep3Title": "Plan Together",
+    "howItWorksStep3Body": "The SAGOTRA team replies with availability, pricing, and a proposed itinerary.",
+    "conversionHeading": "Ready to plan your visit?",
+    "conversionBody": "Tell us your interests, dates, and group size — we'll help put together an experience that fits.",
+    "conversionCtaPrimary": "Explore All Experiences",
+    "conversionCtaSecondary": "Plan Your Visit"
+  },
+  "Pillars": {
+    "heritage": {
+      "title": "Heritage & Culture",
+      "description": "Palaces, heritage residences, and historic spaces holding Yogyakarta's long story."
+    },
+    "arts": {
+      "title": "Arts & Learning",
+      "description": "Batik, jumputan, classical dance, and cooking classes with local masters."
+    },
+    "culinary": {
+      "title": "Culinary",
+      "description": "Royal dining, traditional food, angkringan, and Yogyakarta's local snacks."
+    },
+    "community": {
+      "title": "Community & Creative Life",
+      "description": "Village life, community crafts, and independence-era stories still felt today."
+    }
+  },
+  "Experiences": {
+    "pageEyebrow": "Experience Catalog",
+    "pageTitle": "All SAGOTRA Experiences",
+    "pageSubtitle": "Find experiences by interest, audience, duration, and location.",
+    "filters": {
+      "category": "Category",
+      "allCategories": "All Categories",
+      "audience": "Audience",
+      "allAudiences": "All Audiences",
+      "duration": "Duration",
+      "allDurations": "All Durations",
+      "location": "Location",
+      "allLocations": "All Locations",
+      "reset": "Reset Filters",
+      "showing": "Showing {count} of {total} experiences",
+      "audienceLabels": {
+        "cultural-traveler": "Cultural Traveler",
+        "family": "Family / Small Group",
+        "school-community": "School / Community",
+        "corporate": "Corporate / Institution",
+        "international-visitor": "International Visitor"
+      },
+      "durationLabels": {
+        "short": "Up to 2 hours",
+        "half-day": "2-4 hours",
+        "extended": "4+ hours"
+      }
+    },
+    "noResults": "No experiences match these filters yet. Try resetting your filters.",
+    "cardCta": "View Experience"
+  },
+  "ExperienceDetail": {
+    "overviewLabel": "Overview",
+    "storyLabel": "Story",
+    "highlightsLabel": "Highlights",
+    "practicalLabel": "Practical Details",
+    "duration": "Duration",
+    "meetingPoint": "Meeting Point",
+    "minimumGroup": "Minimum Group",
+    "language": "Languages Available",
+    "accessibility": "Accessibility",
+    "whatToBring": "What to Bring",
+    "includesLabel": "Includes",
+    "excludesLabel": "Excludes",
+    "responsibleLabel": "Responsible Visit Notes",
+    "relatedLabel": "Related Experiences",
+    "inquiryLabel": "Interested in this experience?",
+    "inquiryBody": "Send us an inquiry and our team will reply with availability and pricing.",
+    "whatsappCta": "Ask on WhatsApp",
+    "formCta": "Fill Out an Inquiry Form"
+  },
+  "Destinations": {
+    "pageEyebrow": "Destinations",
+    "pageTitle": "SAGOTRA Destinations",
+    "pageSubtitle": "We're starting our journey in Kadipaten Yogyakarta, with more Indonesian destinations to follow.",
+    "comingSoon": "More destinations are coming soon."
+  },
+  "DestinationDetail": {
+    "overviewLabel": "About This Destination",
+    "contextLabel": "Cultural & Community Context",
+    "experiencesLabel": "Experiences in This Destination",
+    "storiesLabel": "Stories from This Destination",
+    "practicalLabel": "Practical Notes",
+    "mapLabel": "View Map",
+    "zonesLabel": "Kampung Tourism Map",
+    "zonesSubtitle": "Kadipaten is mapped into 10 tourism zones, each with its own character and community.",
+    "zonePrefix": "Zone"
+  },
+  "Stories": {
+    "pageEyebrow": "Stories",
+    "pageTitle": "SAGOTRA Stories",
+    "pageSubtitle": "Stories of living culture, the people behind each experience, and traditions still cared for today.",
+    "publishedOn": "Published {date}",
+    "relatedExperiences": "Related Experiences"
+  },
+  "About": {
+    "pageEyebrow": "About Us",
+    "pageTitle": "About SAGOTRA",
+    "nameHeading": "The Meaning of SAGOTRA",
+    "nameBody": "SAGOTRA represents the spirit of kinship and togetherness — a value we find in every community we work with.",
+    "mandalaHeading": "Mandala Pengalaman",
+    "mandalaBody": "Mandala Pengalaman is our framework for weaving heritage, arts, culinary traditions, and community life into one complete, meaningful journey.",
+    "partnersHeading": "Communities & Partners",
+    "partnersBody": "SAGOTRA works together with local communities and cultural practitioners. Partner names and logos are shown with permission and full respect for their contribution.",
+    "valuesHeading": "Responsible Tourism",
+    "valuesBody": "We believe good tourism is tourism that respects the communities, cultural spaces, and traditions it visits."
+  },
+  "PlanYourVisit": {
+    "pageEyebrow": "Plan Your Visit",
+    "pageTitle": "Plan Your Visit",
+    "pageSubtitle": "Tell us about your interests and plans — we'll help put together an experience that fits.",
+    "whatsappHeading": "Chat Directly on WhatsApp",
+    "whatsappBody": "The fastest way to get a reply. Our team is ready to help with availability, pricing, and itinerary suggestions.",
+    "whatsappCta": "Start a WhatsApp Chat",
+    "formHeading": "Or Send an Inquiry Form",
+    "formSubheading": "Fill in the details below and our team will get back to you.",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formPhone": "WhatsApp Number",
+    "formExperience": "Experience of Interest",
+    "formExperiencePlaceholder": "Select an experience (optional)",
+    "formDate": "Preferred Visit Date",
+    "formGroupSize": "Group Size",
+    "formLanguagePreference": "Preferred Language",
+    "formInterests": "Other Interests",
+    "formMessage": "Additional Message",
+    "formConsent": "I agree that SAGOTRA may contact me about this inquiry in accordance with the privacy policy.",
+    "formSubmit": "Send Inquiry",
+    "formSubmitting": "Sending...",
+    "formSuccessTitle": "Thank you!",
+    "formSuccessBody": "We've received your inquiry. The SAGOTRA team will be in touch shortly.",
+    "formErrorTitle": "Form incomplete",
+    "formErrorBody": "Please complete the required fields and accept the data consent before submitting.",
+    "faqHeading": "Frequently Asked Questions"
+  }
+}

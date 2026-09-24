@@ -1,0 +1,204 @@
+{
+  "Metadata": {
+    "siteName": "SAGOTRA",
+    "tagline": "Indonesia Tourism Ecosystem",
+    "defaultTitle": "SAGOTRA — Pengalaman Wisata Budaya Indonesia",
+    "defaultDescription": "SAGOTRA menghadirkan warisan budaya, kesenian, kuliner, dan komunitas lokal Yogyakarta sebagai pengalaman wisata yang autentik dan bermakna."
+  },
+  "Nav": {
+    "home": "Beranda",
+    "experiences": "Pengalaman",
+    "destinations": "Destinasi",
+    "stories": "Cerita",
+    "about": "Tentang Kami",
+    "planYourVisit": "Rencanakan Kunjungan"
+  },
+  "Footer": {
+    "description": "SAGOTRA menghubungkan warisan, kesenian, kuliner, komunitas lokal, dan kreativitas Indonesia menjadi satu ekosistem pengalaman wisata yang bermakna.",
+    "explore": "Jelajahi",
+    "company": "Perusahaan",
+    "getInTouch": "Hubungi Kami",
+    "whatsapp": "Chat WhatsApp",
+    "rights": "Seluruh hak cipta dilindungi.",
+    "language": "Bahasa"
+  },
+  "Common": {
+    "readMore": "Baca Selengkapnya",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "viewAll": "Lihat Semua",
+    "viewDetail": "Lihat Detail",
+    "inquireNow": "Kirim Pertanyaan",
+    "chatWhatsapp": "Chat via WhatsApp",
+    "backTo": "Kembali ke {label}",
+    "priceOnRequest": "Harga tersedia setelah konfirmasi",
+    "startingFrom": "Mulai dari",
+    "perPerson": "/orang",
+    "perGroup": "/paket",
+    "location": "Lokasi",
+    "category": "Kategori",
+    "duration": "Durasi",
+    "language": "Bahasa"
+  },
+  "Home": {
+    "heroEyebrow": "Indonesia Tourism Ecosystem",
+    "heroTitle": "Gerbang menuju pengalaman Indonesia yang bermakna",
+    "heroSubtitle": "SAGOTRA menghadirkan warisan, kesenian, kuliner, dan kehidupan komunitas Yogyakarta sebagai pengalaman yang saling terhubung — bukan sekadar daftar paket wisata.",
+    "heroCtaPrimary": "Jelajahi Pengalaman",
+    "heroCtaSecondary": "Tanya Kunjungan Anda",
+    "featuredEyebrow": "Koleksi Peluncuran",
+    "featuredHeading": "Pengalaman Kadipaten Yogyakarta",
+    "featuredSubheading": "Destinasi pertama SAGOTRA — dari keraton, dalem, hingga komunitas seni yang masih hidup hingga kini.",
+    "pillarsEyebrow": "Mandala Pengalaman",
+    "pillarsHeading": "Empat pilar pengalaman SAGOTRA",
+    "pillarsSubheading": "Setiap pengalaman kami berangkat dari salah satu pilar ini, saling terhubung membentuk satu ekosistem wisata budaya.",
+    "storyEyebrow": "Cerita Kami",
+    "storyHeading": "Budaya yang Hidup",
+    "storyBody": "Di balik setiap keraton, dalem, dan sanggar yang kami perkenalkan, ada komunitas yang terus merawat tradisi hari demi hari. SAGOTRA hadir untuk menceritakan itu dengan jujur — bukan sebagai tontonan, tetapi sebagai percakapan.",
+    "howItWorksEyebrow": "Cara Kerja",
+    "howItWorksHeading": "Dari inspirasi menuju pengalaman nyata",
+    "howItWorksBody": "Jelajahi cerita dan pengalaman kami, temukan yang paling sesuai dengan minat Anda, lalu kirimkan pertanyaan melalui WhatsApp atau formulir singkat. Tim kami akan membalas dengan ketersediaan, harga, dan usulan itinerary.",
+    "howItWorksStep1Title": "Jelajahi",
+    "howItWorksStep1Body": "Telusuri cerita dan katalog pengalaman berdasarkan minat, audiens, dan lokasi Anda.",
+    "howItWorksStep2Title": "Kirim Pertanyaan",
+    "howItWorksStep2Body": "Hubungi kami via WhatsApp atau formulir dengan tanggal, jumlah rombongan, dan minat Anda.",
+    "howItWorksStep3Title": "Rencanakan Bersama",
+    "howItWorksStep3Body": "Tim SAGOTRA membalas dengan ketersediaan, harga, dan usulan itinerary yang sesuai.",
+    "conversionHeading": "Siap merencanakan kunjungan Anda?",
+    "conversionBody": "Ceritakan minat, tanggal, dan jumlah rombongan Anda — kami bantu susun pengalaman yang sesuai.",
+    "conversionCtaPrimary": "Jelajahi Semua Pengalaman",
+    "conversionCtaSecondary": "Rencanakan Kunjungan"
+  },
+  "Pillars": {
+    "heritage": {
+      "title": "Warisan & Budaya",
+      "description": "Keraton, dalem, dan ruang bersejarah yang menyimpan cerita panjang Yogyakarta."
+    },
+    "arts": {
+      "title": "Kesenian & Pembelajaran",
+      "description": "Batik, jumputan, tari klasik, hingga kelas memasak bersama para maestro lokal."
+    },
+    "culinary": {
+      "title": "Kuliner",
+      "description": "Santap kerajaan, kuliner tradisional, angkringan, hingga jajanan khas Yogyakarta."
+    },
+    "community": {
+      "title": "Komunitas & Kreativitas",
+      "description": "Kehidupan kampung, kerajinan warga, dan kisah kemerdekaan yang masih terasa hingga kini."
+    }
+  },
+  "Experiences": {
+    "pageEyebrow": "Katalog Pengalaman",
+    "pageTitle": "Semua Pengalaman SAGOTRA",
+    "pageSubtitle": "Temukan pengalaman berdasarkan minat, audiens, durasi, dan lokasi Anda.",
+    "filters": {
+      "category": "Kategori",
+      "allCategories": "Semua Kategori",
+      "audience": "Audiens",
+      "allAudiences": "Semua Audiens",
+      "duration": "Durasi",
+      "allDurations": "Semua Durasi",
+      "location": "Lokasi",
+      "allLocations": "Semua Lokasi",
+      "reset": "Atur Ulang Filter",
+      "showing": "Menampilkan {count} dari {total} pengalaman",
+      "audienceLabels": {
+        "cultural-traveler": "Wisatawan Budaya",
+        "family": "Keluarga / Rombongan Kecil",
+        "school-community": "Sekolah / Komunitas",
+        "corporate": "Korporat / Institusi",
+        "international-visitor": "Wisatawan Mancanegara"
+      },
+      "durationLabels": {
+        "short": "Sampai 2 jam",
+        "half-day": "2-4 jam",
+        "extended": "Lebih dari 4 jam"
+      }
+    },
+    "noResults": "Belum ada pengalaman yang cocok dengan filter ini. Coba atur ulang filter Anda.",
+    "cardCta": "Lihat Pengalaman"
+  },
+  "ExperienceDetail": {
+    "overviewLabel": "Ikhtisar",
+    "storyLabel": "Cerita",
+    "highlightsLabel": "Momen Utama",
+    "practicalLabel": "Informasi Praktis",
+    "duration": "Durasi",
+    "meetingPoint": "Titik Kumpul",
+    "minimumGroup": "Minimum Rombongan",
+    "language": "Bahasa Tersedia",
+    "accessibility": "Aksesibilitas",
+    "whatToBring": "Yang Perlu Dibawa",
+    "includesLabel": "Termasuk",
+    "excludesLabel": "Tidak Termasuk",
+    "responsibleLabel": "Panduan Berkunjung",
+    "relatedLabel": "Pengalaman Terkait",
+    "inquiryLabel": "Tertarik dengan pengalaman ini?",
+    "inquiryBody": "Kirim pertanyaan Anda dan tim kami akan membalas dengan ketersediaan dan harga.",
+    "whatsappCta": "Tanya via WhatsApp",
+    "formCta": "Isi Formulir Pertanyaan"
+  },
+  "Destinations": {
+    "pageEyebrow": "Destinasi",
+    "pageTitle": "Destinasi SAGOTRA",
+    "pageSubtitle": "Kami memulai perjalanan dari Kadipaten Yogyakarta, dengan destinasi Indonesia lainnya menyusul.",
+    "comingSoon": "Destinasi berikutnya akan segera hadir."
+  },
+  "DestinationDetail": {
+    "overviewLabel": "Tentang Destinasi",
+    "contextLabel": "Konteks Budaya & Komunitas",
+    "experiencesLabel": "Pengalaman di Destinasi Ini",
+    "storiesLabel": "Cerita dari Destinasi Ini",
+    "practicalLabel": "Catatan Praktis",
+    "mapLabel": "Lihat Peta",
+    "zonesLabel": "Peta Wisata Kampung",
+    "zonesSubtitle": "Kadipaten terbagi menjadi 10 zona wisata, masing-masing dengan karakter dan komunitasnya sendiri.",
+    "zonePrefix": "Zona"
+  },
+  "Stories": {
+    "pageEyebrow": "Cerita",
+    "pageTitle": "Cerita SAGOTRA",
+    "pageSubtitle": "Kisah tentang budaya yang hidup, orang-orang di balik pengalaman, dan tradisi yang terus dirawat.",
+    "publishedOn": "Diterbitkan {date}",
+    "relatedExperiences": "Pengalaman Terkait"
+  },
+  "About": {
+    "pageEyebrow": "Tentang Kami",
+    "pageTitle": "Tentang SAGOTRA",
+    "nameHeading": "Arti Nama SAGOTRA",
+    "nameBody": "SAGOTRA merepresentasikan semangat kebersamaan dan kekerabatan — nilai yang kami temukan di setiap komunitas yang kami ajak bekerja sama.",
+    "mandalaHeading": "Mandala Pengalaman",
+    "mandalaBody": "Mandala Pengalaman adalah kerangka kami dalam merangkai warisan, kesenian, kuliner, dan kehidupan komunitas menjadi satu perjalanan yang utuh dan bermakna.",
+    "partnersHeading": "Komunitas & Mitra",
+    "partnersBody": "SAGOTRA bekerja sama dengan komunitas dan pelaku budaya lokal. Nama dan logo mitra ditampilkan dengan izin dan penghormatan penuh terhadap kontribusi mereka.",
+    "valuesHeading": "Pariwisata yang Bertanggung Jawab",
+    "valuesBody": "Kami percaya wisata yang baik adalah wisata yang menghormati komunitas, ruang budaya, dan tradisi yang dikunjungi."
+  },
+  "PlanYourVisit": {
+    "pageEyebrow": "Rencanakan Kunjungan",
+    "pageTitle": "Rencanakan Kunjungan Anda",
+    "pageSubtitle": "Ceritakan minat dan rencana Anda — kami bantu susun pengalaman yang sesuai.",
+    "whatsappHeading": "Chat Langsung via WhatsApp",
+    "whatsappBody": "Cara tercepat untuk mendapat balasan. Tim kami siap membantu ketersediaan, harga, dan usulan itinerary.",
+    "whatsappCta": "Mulai Chat WhatsApp",
+    "formHeading": "Atau Kirim Formulir Pertanyaan",
+    "formSubheading": "Isi detail di bawah dan tim kami akan menghubungi Anda kembali.",
+    "formName": "Nama Lengkap",
+    "formEmail": "Alamat Email",
+    "formPhone": "Nomor WhatsApp",
+    "formExperience": "Pengalaman yang Diminati",
+    "formExperiencePlaceholder": "Pilih pengalaman (opsional)",
+    "formDate": "Tanggal Kunjungan",
+    "formGroupSize": "Jumlah Rombongan",
+    "formLanguagePreference": "Bahasa yang Diinginkan",
+    "formInterests": "Minat Lainnya",
+    "formMessage": "Pesan Tambahan",
+    "formConsent": "Saya setuju SAGOTRA menghubungi saya terkait pertanyaan ini sesuai dengan kebijakan privasi.",
+    "formSubmit": "Kirim Pertanyaan",
+    "formSubmitting": "Mengirim...",
+    "formSuccessTitle": "Terima kasih!",
+    "formSuccessBody": "Pertanyaan Anda telah kami terima. Tim SAGOTRA akan segera menghubungi Anda.",
+    "formErrorTitle": "Formulir belum lengkap",
+    "formErrorBody": "Mohon lengkapi kolom yang wajib diisi dan setujui persetujuan data sebelum mengirim.",
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  }
+}
