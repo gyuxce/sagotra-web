@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { navItems } from "@/lib/constants";
@@ -15,6 +16,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="focus-ring flex items-center gap-2 text-xl font-bold tracking-tight text-[var(--color-deep-purple)]">
+          <Image src="/logo-mark.png" alt="" width={32} height={32} className="h-8 w-8" priority />
           SAGOTRA
         </Link>
 

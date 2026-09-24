@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { navItems, siteConfig } from "@/lib/constants";
@@ -13,7 +14,10 @@ export async function Footer() {
     <footer className="mt-24 border-t border-black/5 bg-[var(--color-cream)]">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-2">
-          <p className="text-xl font-bold tracking-tight text-[var(--color-deep-purple)]">{siteConfig.name}</p>
+          <div className="flex items-center gap-2">
+            <Image src="/logo-mark.png" alt="" width={28} height={28} className="h-7 w-7" />
+            <p className="text-xl font-bold tracking-tight text-[var(--color-deep-purple)]">{siteConfig.name}</p>
+          </div>
           <p className="mt-1 text-sm font-medium text-[var(--color-jade-green)]">{siteConfig.tagline}</p>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-[var(--foreground)]/80">
             {t("Footer.description")}
