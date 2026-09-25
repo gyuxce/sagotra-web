@@ -5,7 +5,7 @@ import type { Experience } from "@/lib/content/types";
 export function PriceTag({ experience, className = "" }: { experience: Experience; className?: string }) {
   const t = useTranslations("Common");
 
-  if (experience.priceOnRequest || !experience.retailPrice) {
+  if (experience.priceOnRequest || experience.retailPrice === undefined) {
     return <span className={`text-sm text-[var(--foreground)]/60 ${className}`}>{t("priceOnRequest")}</span>;
   }
 

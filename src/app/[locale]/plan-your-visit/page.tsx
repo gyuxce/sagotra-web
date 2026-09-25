@@ -64,7 +64,7 @@ export default async function PlanYourVisitPage({
             </a>
           </div>
         </div>
-        <WhatsAppButton href={whatsappHref} label={t("whatsappCta")} className="w-fit shrink-0" />
+        <WhatsAppButton href={whatsappHref} label={t("whatsappCta")} className="w-fit shrink-0" experienceSlug={defaultExperienceSlug} />
       </div>
 
       <div className="mx-auto mt-8 max-w-2xl rounded-2xl border border-black/5 p-8">

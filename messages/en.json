@@ -199,6 +199,8 @@
     "formSuccessBody": "We've received your inquiry. The SAGOTRA team will be in touch shortly.",
     "formErrorTitle": "Form incomplete",
     "formErrorBody": "Please complete the required fields and accept the data consent before submitting.",
+    "formUnavailableTitle": "Inquiry not submitted",
+    "formUnavailableBody": "We couldn't save your inquiry right now. Please contact us directly on WhatsApp.",
     "faqHeading": "Frequently Asked Questions"
   }
 }

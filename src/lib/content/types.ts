@@ -41,7 +41,7 @@ export interface Experience {
   images: MediaImage[];
   relatedExperienceSlugs: string[];
   relatedStorySlugs: string[];
-  priceOnRequest: boolean;
+  priceOnRequest?: boolean;
   retailPrice?: number;
   priceUnit?: "per-person" | "per-group";
   inquiryStatus: "open" | "seasonal" | "on-request";

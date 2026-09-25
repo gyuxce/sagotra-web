@@ -79,8 +79,6 @@ async function run() {
           _ref: storyId(slug),
           _key: slug,
         })),
-        priceOnRequest: experience.priceOnRequest,
-        retailPrice: experience.retailPrice,
         priceUnit: experience.priceUnit,
         inquiryStatus: experience.inquiryStatus,
       },

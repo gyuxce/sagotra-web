@@ -13,6 +13,7 @@ import {
   storiesQuery,
   storyBySlugQuery,
 } from "@/lib/sanity/queries";
+import { getPublicExperiencePrices } from "@/lib/supabase/server";
 import { destinations, experiences, faqs, partners, stories } from "./mock-data";
 import type { Destination, Experience, Faq, Partner, Story } from "./types";
 
@@ -23,17 +24,27 @@ import type { Destination, Experience, Faq, Partner, Story } from "./types";
  * still runs with zero external setup.
  */
 
+async function withCrmSalePrices(items: Experience[]): Promise<Experience[]> {
+  if (items.length === 0) return items;
+  const publicPrices = await getPublicExperiencePrices().catch(() => []);
+  const pricesBySlug = new Map(publicPrices.map((price) => [price.experience_slug, price.sale_price]));
+  return items.map((experience) => {
+    const retailPrice = pricesBySlug.get(experience.slug);
+    return { ...experience, retailPrice, priceOnRequest: retailPrice === undefined };
+  });
+}
+
 export async function getExperiences(): Promise<Experience[]> {
-  if (isSanityConfigured) return client.fetch(experiencesQuery);
-  return experiences;
+  const items = isSanityConfigured ? await client.fetch<Experience[]>(experiencesQuery) : experiences;
+  return withCrmSalePrices(items);
 }
 
 export async function getExperience(slug: string): Promise<Experience | undefined> {
-  if (isSanityConfigured) {
-    const result = await client.fetch(experienceBySlugQuery, { slug });
-    return result ?? undefined;
-  }
-  return experiences.find((experience) => experience.slug === slug);
+  const item = isSanityConfigured
+    ? await client.fetch<Experience | null>(experienceBySlugQuery, { slug })
+    : experiences.find((experience) => experience.slug === slug);
+  if (!item) return undefined;
+  return (await withCrmSalePrices([item]))[0];
 }
 
 export async function getExperiencesBySlugs(slugs: string[]): Promise<Experience[]> {
@@ -44,8 +55,10 @@ export async function getExperiencesBySlugs(slugs: string[]): Promise<Experience
     : experiences.filter((experience) => slugs.includes(experience.slug));
 
   const bySlug = new Map(results.map((experience) => [experience.slug, experience]));
-  return slugs.map((slug) => bySlug.get(slug)).filter((experience): experience is Experience => Boolean(experience));
+  const ordered = slugs.map((slug) => bySlug.get(slug)).filter((experience): experience is Experience => Boolean(experience));
+  return withCrmSalePrices(ordered);
 }
+
 
 export async function getDestinations(): Promise<Destination[]> {
   if (isSanityConfigured) return client.fetch(destinationsQuery);
@@ -61,8 +74,10 @@ export async function getDestination(slug: string): Promise<Destination | undefi
 }
 
 export async function getExperiencesByDestination(slug: string): Promise<Experience[]> {
-  if (isSanityConfigured) return client.fetch(experiencesByDestinationQuery, { slug });
-  return experiences.filter((experience) => experience.destinationSlug === slug);
+  const items = isSanityConfigured
+    ? await client.fetch<Experience[]>(experiencesByDestinationQuery, { slug })
+    : experiences.filter((experience) => experience.destinationSlug === slug);
+  return withCrmSalePrices(items);
 }
 
 export async function getStories(): Promise<Story[]> {

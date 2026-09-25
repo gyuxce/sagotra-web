@@ -10,6 +10,8 @@ import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import { getDestination, getExperience, getExperiences, getExperiencesBySlugs } from "@/lib/content";
 import { buildExperienceInquiryMessage, buildWhatsAppLink } from "@/lib/whatsapp";
 
+export const revalidate = 60;
+
 export async function generateStaticParams() {
   const experiences = await getExperiences();
   return routing.locales.flatMap((locale) =>
@@ -178,7 +180,7 @@ export default async function ExperienceDetailPage({
             <h3 className="mt-3 text-base font-semibold text-[var(--color-deep-purple)]">{t("inquiryLabel")}</h3>
             <p className="mt-2 text-sm text-[var(--foreground)]/70">{t("inquiryBody")}</p>
             <div className="mt-4 flex flex-col gap-2">
-              <WhatsAppButton href={whatsappHref} label={t("whatsappCta")} className="w-full" />
+              <WhatsAppButton href={whatsappHref} label={t("whatsappCta")} className="w-full" experienceSlug={experience.slug} />
               <Link
                 href={{ pathname: "/plan-your-visit", query: { experience: experience.slug } }}
                 className="focus-ring inline-flex items-center justify-center rounded-full border border-[var(--color-deep-purple)] px-6 py-3 text-sm font-semibold text-[var(--color-deep-purple)] hover:bg-[var(--color-deep-purple)]/5"

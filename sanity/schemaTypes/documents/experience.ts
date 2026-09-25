@@ -129,21 +129,6 @@ export const experience = defineType({
       of: [{ type: "reference", to: [{ type: "story" }] }],
     }),
     defineField({
-      name: "priceOnRequest",
-      title: "Price on request",
-      description: "Keep enabled until a verified retail price is approved by commercial and operations (PRD section 9).",
-      type: "boolean",
-      initialValue: true,
-      group: "content",
-    }),
-    defineField({
-      name: "retailPrice",
-      title: "Verified retail price (IDR)",
-      type: "number",
-      group: "content",
-      hidden: ({ document }) => Boolean(document?.priceOnRequest),
-    }),
-    defineField({
       name: "priceUnit",
       title: "Price unit",
       type: "string",
@@ -155,7 +140,6 @@ export const experience = defineType({
         ],
       },
       initialValue: "per-person",
-      hidden: ({ document }) => Boolean(document?.priceOnRequest),
     }),
     defineField({
       name: "inquiryStatus",

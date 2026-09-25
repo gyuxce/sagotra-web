@@ -7,6 +7,8 @@ import { MediaImage } from "@/components/shared/MediaImage";
 import { ExperienceCard } from "@/components/experiences/ExperienceCard";
 import { getDestination, getDestinations, getExperiencesByDestination, getStoriesByDestination } from "@/lib/content";
 
+export const revalidate = 60;
+
 export async function generateStaticParams() {
   const destinations = await getDestinations();
   return routing.locales.flatMap((locale) =>

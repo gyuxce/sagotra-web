@@ -7,6 +7,8 @@ import { getDestinations, getExperiences } from "@/lib/content";
 import { filterExperiences, parseFilterState } from "@/lib/content/filters";
 import type { Locale } from "@/i18n/routing";
 
+export const revalidate = 60;
+
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Experiences");
   return { title: t("pageTitle"), description: t("pageSubtitle") };

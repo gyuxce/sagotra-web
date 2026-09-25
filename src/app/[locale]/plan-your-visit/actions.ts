@@ -1,7 +1,9 @@
 "use server";
 
+import { client } from "@/lib/sanity/client";
 import { z } from "zod";
-import { isWriteConfigured, writeClient } from "@/lib/sanity/write-client";
+import { isSanityConfigured } from "@/lib/sanity/env";
+import { createSupabaseServerClient, isSupabaseConfigured } from "@/lib/supabase/server";
 
 const inquirySchema = z.object({
   name: z.string().trim().min(1),
@@ -17,7 +19,7 @@ const inquirySchema = z.object({
 });
 
 export type InquiryFormState = {
-  status: "idle" | "success" | "error";
+  status: "idle" | "success" | "error" | "unavailable";
 };
 
 export async function submitInquiry(
@@ -30,24 +32,38 @@ export async function submitInquiry(
     return { status: "error" };
   }
 
-  const data = parsed.data;
+  if (!isSupabaseConfigured) return { status: "unavailable" };
 
-  if (isWriteConfigured) {
-    await writeClient.create({
-      _type: "inquiry",
+  const data = parsed.data;
+  try {
+    const experience = data.experienceSlug && isSanityConfigured
+      ? await client.fetch<{ _id: string; slug: string; title: string } | undefined>(
+          '*[_type == "experience" && slug.current == $slug][0]{_id, "slug": slug.current, "title": coalesce(title.en, title.id)}',
+          { slug: data.experienceSlug },
+        )
+      : undefined;
+
+    const supabase = createSupabaseServerClient();
+    if (!supabase) return { status: "unavailable" };
+    const { error } = await supabase.from("crm_leads").insert({
       name: data.name,
-      email: data.email || undefined,
+      email: data.email || null,
       phone: data.phone,
-      preferredDate: data.preferredDate || undefined,
-      groupSize: data.groupSize ? Number(data.groupSize) : undefined,
-      language: data.language || undefined,
-      interests: data.interests || undefined,
-      message: data.message || undefined,
-      consentGiven: true,
+      experience_id: experience?._id ?? null,
+      experience_slug: experience?.slug ?? (data.experienceSlug || null),
+      experience_title: experience?.title ?? null,
+      preferred_date: data.preferredDate || null,
+      group_size: data.groupSize ? Number(data.groupSize) : null,
+      language: data.language || null,
+      interests: data.interests || null,
+      message: data.message || null,
+      consent_given: true,
       source: "plan-your-visit",
-      status: "new",
-      submittedAt: new Date().toISOString(),
+      channel: "form",
     });
+    if (error) return { status: "unavailable" };
+  } catch {
+    return { status: "unavailable" };
   }
 
   return { status: "success" };

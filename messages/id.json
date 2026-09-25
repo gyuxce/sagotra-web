@@ -199,6 +199,8 @@
     "formSuccessBody": "Pertanyaan Anda telah kami terima. Tim SAGOTRA akan segera menghubungi Anda.",
     "formErrorTitle": "Formulir belum lengkap",
     "formErrorBody": "Mohon lengkapi kolom yang wajib diisi dan setujui persetujuan data sebelum mengirim.",
+    "formUnavailableTitle": "Pertanyaan belum terkirim",
+    "formUnavailableBody": "Pertanyaan Anda belum dapat disimpan saat ini. Silakan hubungi kami langsung melalui WhatsApp.",
     "faqHeading": "Pertanyaan yang Sering Diajukan"
   }
 }

@@ -8,6 +8,8 @@ import { ExperienceCard } from "@/components/experiences/ExperienceCard";
 import { getExperiencesBySlugs, getStories, getStory } from "@/lib/content";
 import { formatPublishDate } from "@/lib/format";
 
+export const revalidate = 60;
+
 export async function generateStaticParams() {
   const stories = await getStories();
   return routing.locales.flatMap((locale) => stories.map((story) => ({ locale, slug: story.slug })));

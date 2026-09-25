@@ -23,8 +23,6 @@ const experienceProjection = groq`{
   "images": coalesce(images[]{..., "alt": coalesce(alt, ^.title)}, []),
   "relatedExperienceSlugs": coalesce(relatedExperiences[]->slug.current, []),
   "relatedStorySlugs": coalesce(relatedStories[]->slug.current, []),
-  priceOnRequest,
-  retailPrice,
   priceUnit,
   inquiryStatus
 }`;

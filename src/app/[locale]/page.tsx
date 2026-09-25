@@ -5,6 +5,8 @@ import { AwarenessStory } from "@/components/home/AwarenessStory";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { ConversionSection } from "@/components/home/ConversionSection";
 
+export const revalidate = 60;
+
 export default function HomePage() {
   return (
     <>

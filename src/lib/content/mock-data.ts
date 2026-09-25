@@ -1,13 +1,9 @@
 import type { Destination, Experience, Faq, Partner, Story } from "./types";
 
 /**
- * Launch content for Kadipaten Yogyakarta. Experience details, prices,
- * itineraries, and destination facts are sourced from the Pokdarwis
- * Hudyanasari "Paket Wisata Kadipaten" brochure (rev 2-1). SAGOTRA resells
- * these packages as a third party; source prices are commercial cost
- * references only and are never shown publicly (see PRD section 9, Content
- * Governance — public prices require a SAGOTRA retail price approved by
- * commercial and operations).
+ * Launch content for Kadipaten Yogyakarta. Experience details and destination
+ * facts are sourced from the Pokdarwis Hudyanasari "Paket Wisata Kadipaten"
+ * brochure (rev 2-1). Public prices are loaded only from CRM sale pricing.
  */
 
 export const destinations: Destination[] = [
@@ -173,8 +169,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["dalem-benawan", "dalem-mangkubumen"],
     relatedStorySlugs: ["tamansari-heritage-spaces"],
-    priceOnRequest: false,
-    retailPrice: 445000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -222,8 +216,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["dalem-pakuningratan", "dalem-kaneman"],
     relatedStorySlugs: ["tamansari-heritage-spaces"],
-    priceOnRequest: false,
-    retailPrice: 435000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -271,8 +263,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["royal-dinner-dalem-kaneman", "dalem-benawan"],
     relatedStorySlugs: [],
-    priceOnRequest: false,
-    retailPrice: 375000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -319,8 +309,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["dalem-pakuningratan", "dalem-joyokusuman"],
     relatedStorySlugs: ["budaya-yang-hidup"],
-    priceOnRequest: false,
-    retailPrice: 480000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -367,8 +355,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["dalem-mangkubumen", "royal-dinner-gadri-resto-joyokusuman"],
     relatedStorySlugs: [],
-    priceOnRequest: false,
-    retailPrice: 345000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -417,8 +403,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-batik-tulis-lukis", "susur-kampung-perjuangan-kemerdekaan"],
     relatedStorySlugs: ["people-behind-the-batik"],
-    priceOnRequest: false,
-    retailPrice: 210000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -467,8 +451,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-jumputan", "short-course-lukis-kaos"],
     relatedStorySlugs: ["people-behind-the-batik"],
-    priceOnRequest: false,
-    retailPrice: 225000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -517,8 +499,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-batik-tulis-lukis", "short-course-jumputan"],
     relatedStorySlugs: [],
-    priceOnRequest: false,
-    retailPrice: 225000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -567,8 +547,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-miru-kain-busana-adat", "dalem-mangkubumen"],
     relatedStorySlugs: ["budaya-yang-hidup"],
-    priceOnRequest: false,
-    retailPrice: 230000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -617,8 +595,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-tari-klasik", "dalem-mangkubumen"],
     relatedStorySlugs: [],
-    priceOnRequest: false,
-    retailPrice: 345000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -666,8 +642,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["royal-dinner-dalem-kaneman", "royal-dinner-gadri-resto-joyokusuman"],
     relatedStorySlugs: ["royal-kitchen-traditions"],
-    priceOnRequest: false,
-    retailPrice: 230000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -714,8 +688,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-jumputan", "dalem-mangkubumen"],
     relatedStorySlugs: ["budaya-yang-hidup", "responsible-visiting-kraton"],
-    priceOnRequest: false,
-    retailPrice: 365000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -760,8 +732,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["short-course-miru-kain-busana-adat", "dalem-mangkubumen"],
     relatedStorySlugs: [],
-    priceOnRequest: false,
-    retailPrice: 290000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },
@@ -807,8 +777,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["dalem-kaneman", "cooking-class-manuk-nom"],
     relatedStorySlugs: ["royal-kitchen-traditions"],
-    priceOnRequest: false,
-    retailPrice: 12100000,
     priceUnit: "per-group",
     inquiryStatus: "open",
   },
@@ -854,8 +822,6 @@ export const experiences: Experience[] = [
     images: [],
     relatedExperienceSlugs: ["dalem-joyokusuman", "royal-dinner-dalem-kaneman"],
     relatedStorySlugs: ["royal-kitchen-traditions"],
-    priceOnRequest: false,
-    retailPrice: 575000,
     priceUnit: "per-person",
     inquiryStatus: "open",
   },

@@ -81,10 +81,14 @@ export function InquiryForm({ experiences, defaultExperienceSlug }: InquiryFormP
         {t("formConsent")}
       </label>
 
-      {state.status === "error" ? (
+      {state.status === "error" || state.status === "unavailable" ? (
         <div role="alert" className="rounded-xl border border-[var(--color-warm-red)]/30 bg-[var(--color-warm-red)]/10 p-4">
-          <p className="text-sm font-semibold text-[var(--color-warm-red)]">{t("formErrorTitle")}</p>
-          <p className="mt-1 text-sm text-[var(--foreground)]/80">{t("formErrorBody")}</p>
+          <p className="text-sm font-semibold text-[var(--color-warm-red)]">
+            {state.status === "error" ? t("formErrorTitle") : t("formUnavailableTitle")}
+          </p>
+          <p className="mt-1 text-sm text-[var(--foreground)]/80">
+            {state.status === "error" ? t("formErrorBody") : t("formUnavailableBody")}
+          </p>
         </div>
       ) : null}
 

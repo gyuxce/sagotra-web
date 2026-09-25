@@ -3,7 +3,8 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { navItems, siteConfig } from "@/lib/constants";
 import { buildGeneralInquiryMessage, buildWhatsAppLink } from "@/lib/whatsapp";
-import { InstagramIcon, MailIcon, WhatsAppIcon } from "@/components/shared/icons";
+import { InstagramIcon, MailIcon } from "@/components/shared/icons";
+import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 
 export async function Footer() {
   const t = await getTranslations();
@@ -45,15 +46,12 @@ export async function Footer() {
           </h2>
           <ul className="mt-4 space-y-3 text-sm">
             <li>
-              <a
+              <WhatsAppButton
                 href={whatsappHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="focus-ring inline-flex items-center gap-2 font-medium text-[var(--color-jade-green)] hover:underline"
-              >
-                <WhatsAppIcon className="h-4 w-4 shrink-0" />
-                {t("Footer.whatsapp")}
-              </a>
+                label={t("Footer.whatsapp")}
+                variant="outline"
+                className="!h-auto !rounded-none !border-0 !p-0 !font-medium !text-[var(--color-jade-green)] hover:underline"
+              />
             </li>
             <li>
               <a
