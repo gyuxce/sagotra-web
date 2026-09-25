@@ -4,7 +4,7 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.sagotra.com",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "6281234567890",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "arsasagotra@gmail.com",
-  instagramHandle: process.env.NEXT_PUBLIC_INSTAGRAM_HANDLE ?? "arasasagotra",
+  instagramHandle: process.env.NEXT_PUBLIC_INSTAGRAM_HANDLE ?? "arsasagotra",
 };
 
 export const navItems = [
