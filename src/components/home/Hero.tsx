@@ -33,7 +33,7 @@ export function Hero() {
         </div>
       </div>
 
-      <PlaceholderImage label="SAGOTRA — Kadipaten Yogyakarta" category="default" aspect="square" className="w-full" />
+      <PlaceholderImage label="SAGOTRA di Kadipaten Yogyakarta" category="default" aspect="square" className="w-full" />
     </section>
   );
 }

@@ -11,16 +11,16 @@ export const destinations: Destination[] = [
     slug: "kadipaten-yogyakarta",
     name: { id: "Kadipaten Yogyakarta", en: "Kadipaten Yogyakarta" },
     overview: {
-      id: "Berdiri di Kemantren Kraton, Kota Yogyakarta, Kadipaten adalah kelurahan mungil seluas 0,34 km² yang terbagi menjadi 15 RW, 53 RT, dan 4 kampung: Kadipaten Wetan, Kadipaten Kulon, Kadipaten Kidul, dan Ngasem. Namanya sendiri berasal dari gelar Kanjeng Gusti Pangeran Adipati Anom — dari Adipati, lahirlah sebutan Kadipaten.",
-      en: "Set within Kemantren Kraton, Yogyakarta City, Kadipaten is a compact 0.34 km² neighborhood split into 15 RW, 53 RT, and 4 kampung: Kadipaten Wetan, Kadipaten Kulon, Kadipaten Kidul, and Ngasem. Its name traces back to the title Kanjeng Gusti Pangeran Adipati Anom — Adipati giving rise to Kadipaten.",
+      id: "Berdiri di Kemantren Kraton, Kota Yogyakarta, Kadipaten adalah kelurahan mungil seluas 0,34 km² yang terbagi menjadi 15 RW, 53 RT, dan 4 kampung: Kadipaten Wetan, Kadipaten Kulon, Kadipaten Kidul, dan Ngasem. Namanya sendiri berasal dari gelar Kanjeng Gusti Pangeran Adipati Anom, dari Adipati, lahirlah sebutan Kadipaten.",
+      en: "Set within Kemantren Kraton, Yogyakarta City, Kadipaten is a compact 0.34 km² neighborhood split into 15 RW, 53 RT, and 4 kampung: Kadipaten Wetan, Kadipaten Kulon, Kadipaten Kidul, and Ngasem. Its name traces back to the title Kanjeng Gusti Pangeran Adipati Anom, Adipati giving rise to Kadipaten.",
     },
     culturalContext: {
-      id: "Tak mungkin bicara sejarah Kadipaten tanpa menyebut Kompleks Dalem Mangkubumen, berdiri 1865–1886 dan mula-mula dihuni GPH Hangabehi, putra sulung Sri Sultan HB VI yang kelak bergelar KGPAA Hamangkunegara. Begitu ia dinobatkan sebagai Sri Sultan HB VII, adiknya, Kanjeng Pangeran Adipati Mangkubumi, yang menggantikannya tinggal di sana. Bahkan pada masa awal kemerdekaan 1945–1947, dalem ini sempat menjadi tempat tinggal Panglima Besar Jenderal Sudirman, dan pada 1949 — atas izin Sri Sultan HB IX — sempat pula berfungsi sebagai fakultas kedokteran UGM sebelum kampus Bulaksumur rampung dibangun. Jejak sejarah itu masih terasa lewat lima dalem bersejarah yang berdiri di Kadipaten hari ini — Pakuningratan, Benawan, Kaneman, Mangkubumen, dan Joyokusuman — sebagian besar masih dihuni keturunan keluarga Keraton.",
-      en: "You can't tell Kadipaten's history without the Dalem Mangkubumen complex, built 1865–1886 and first home to GPH Hangabehi, eldest son of Sri Sultan HB VI, later titled KGPAA Hamangkunegara. Once he was crowned Sri Sultan HB VII, his younger brother, Kanjeng Pangeran Adipati Mangkubumi, took his place there. During the early days of independence, 1945–1947, the residence was even home to Panglima Besar Jenderal Sudirman, and in 1949 — with the permission of Sri Sultan HB IX — it briefly served as UGM's Faculty of Medicine before the Bulaksumur campus was finished. That history still lives on through five historic dalem standing in Kadipaten today — Pakuningratan, Benawan, Kaneman, Mangkubumen, and Joyokusuman — most still home to descendants of the Keraton family.",
+      id: "Tak mungkin bicara sejarah Kadipaten tanpa menyebut Kompleks Dalem Mangkubumen, berdiri 1865–1886 dan mula-mula dihuni GPH Hangabehi, putra sulung Sri Sultan HB VI yang kelak bergelar KGPAA Hamangkunegara. Begitu ia dinobatkan sebagai Sri Sultan HB VII, adiknya, Kanjeng Pangeran Adipati Mangkubumi, yang menggantikannya tinggal di sana. Bahkan pada masa awal kemerdekaan 1945–1947, dalem ini sempat menjadi tempat tinggal Panglima Besar Jenderal Sudirman, dan pada 1949, atas izin Sri Sultan HB IX, sempat pula berfungsi sebagai fakultas kedokteran UGM sebelum kampus Bulaksumur rampung dibangun. Jejak sejarah itu masih terasa lewat lima dalem bersejarah yang berdiri di Kadipaten hari ini: Pakuningratan, Benawan, Kaneman, Mangkubumen, dan Joyokusuman. Sebagian besar masih dihuni keturunan keluarga Keraton.",
+      en: "You can't tell Kadipaten's history without the Dalem Mangkubumen complex, built 1865–1886 and first home to GPH Hangabehi, eldest son of Sri Sultan HB VI, later titled KGPAA Hamangkunegara. Once he was crowned Sri Sultan HB VII, his younger brother, Kanjeng Pangeran Adipati Mangkubumi, took his place there. During the early days of independence, 1945–1947, the residence was even home to Panglima Besar Jenderal Sudirman, and in 1949, with the permission of Sri Sultan HB IX, it briefly served as UGM's Faculty of Medicine before the Bulaksumur campus was finished. That history still lives on through five historic dalem standing in Kadipaten today: Pakuningratan, Benawan, Kaneman, Mangkubumen, and Joyokusuman. Most are still home to descendants of the Keraton family.",
     },
     practicalNotes: {
-      id: "Menjelajahi Kadipaten bisa dengan berbagai cara: naik kendaraan wisata Si Thole, menyewa sepeda listrik mulai Rp 65.000/jam, sepeda wisata mulai Rp 550.000, atau motor dan mobil dari warga setempat. Urusan perut juga tak perlu khawatir — ada sekitar 70 spot kuliner, dari angkringan dan kafe hingga santap ala kerajaan, dengan nama-nama populer seperti Bakmi Gandhok, Semanak Coffee & Eatery, Gadri Resto, dan Royal Cuisine Kaneman Heritage. Untuk menginap, warga setempat mengelola sejumlah guesthouse dan homestay seperti AJ Bike Guest House, Oemah Ardea, NOAH House, dan Griyane Eyang Jogja. Sepanjang Jl. Polowijan, Jl. Rotowijayan, dan Jl. Ngasem, fasilitas seperti klinik, apotik, ATM/bank, kantor pos, dan pasar tradisional juga mudah dijangkau.",
-      en: "Getting around Kadipaten is flexible: hop on the Si Thole tourist shuttle, rent an electric bike from Rp 65,000/hour, a touring bicycle from Rp 550,000, or a motorbike or car from local residents. Food is never far off either — around 70 culinary spots range from angkringan and cafes to royal-style dining, with local favorites including Bakmi Gandhok, Semanak Coffee & Eatery, Gadri Resto, and Royal Cuisine Kaneman Heritage. For a place to stay, residents run a number of guesthouses and homestays such as AJ Bike Guest House, Oemah Ardea, NOAH House, and Griyane Eyang Jogja. Along Jl. Polowijan, Jl. Rotowijayan, and Jl. Ngasem, everyday facilities like clinics, pharmacies, ATMs/banks, a post office, and a traditional market are all within easy reach.",
+      id: "Menjelajahi Kadipaten bisa dengan berbagai cara: naik kendaraan wisata Si Thole, menyewa sepeda listrik mulai Rp 65.000/jam, sepeda wisata mulai Rp 550.000, atau motor dan mobil dari warga setempat. Urusan perut juga tak perlu khawatir, ada sekitar 70 spot kuliner, dari angkringan dan kafe hingga santap ala kerajaan, dengan nama-nama populer seperti Bakmi Gandhok, Semanak Coffee & Eatery, Gadri Resto, dan Royal Cuisine Kaneman Heritage. Untuk menginap, warga setempat mengelola sejumlah guesthouse dan homestay seperti AJ Bike Guest House, Oemah Ardea, NOAH House, dan Griyane Eyang Jogja. Sepanjang Jl. Polowijan, Jl. Rotowijayan, dan Jl. Ngasem, fasilitas seperti klinik, apotik, ATM/bank, kantor pos, dan pasar tradisional juga mudah dijangkau.",
+      en: "Getting around Kadipaten is flexible: hop on the Si Thole tourist shuttle, rent an electric bike from Rp 65,000/hour, a touring bicycle from Rp 550,000, or a motorbike or car from local residents. Food is never far off either, around 70 culinary spots range from angkringan and cafes to royal-style dining, with local favorites including Bakmi Gandhok, Semanak Coffee & Eatery, Gadri Resto, and Royal Cuisine Kaneman Heritage. For a place to stay, residents run a number of guesthouses and homestays such as AJ Bike Guest House, Oemah Ardea, NOAH House, and Griyane Eyang Jogja. Along Jl. Polowijan, Jl. Rotowijayan, and Jl. Ngasem, everyday facilities like clinics, pharmacies, ATMs/banks, a post office, and a traditional market are all within easy reach.",
     },
     zones: [
       {
@@ -137,8 +137,8 @@ export const experiences: Experience[] = [
       en: "A day through Tamansari, welcomed with dance in the pendapa, before trying your hand at batik at the noble residence of Dalem Pakuningratan.",
     },
     story: {
-      id: "Namanya berubah beberapa kali mengikuti siapa yang tinggal di dalamnya. Dibangun sekitar 1890-an pada masa Sri Sultan HB VII dengan sebutan Dalem Purbayan, penghuni pertamanya adalah GRM Sujadi yang kemudian bergelar BPH Puruboyo. Ketika Sri Sultan HB VIII naik tahta, rumah ini diwariskan ke putrinya, GKR Pembayun, yang menikah dengan BPH Pakoeningrat — dari pernikahan itulah nama Dalem Pakuningratan melekat hingga hari ini.",
-      en: "The name changed more than once depending on who lived there. Built around the 1890s during the reign of Sri Sultan HB VII under the name Dalem Purbayan, its first occupant was GRM Sujadi, later titled BPH Puruboyo. When Sri Sultan HB VIII took the throne, the residence passed to his daughter, GKR Pembayun, who married BPH Pakoeningrat — and from that marriage came the name Dalem Pakuningratan, still used today.",
+      id: "Namanya berubah beberapa kali mengikuti siapa yang tinggal di dalamnya. Dibangun sekitar 1890-an pada masa Sri Sultan HB VII dengan sebutan Dalem Purbayan, penghuni pertamanya adalah GRM Sujadi yang kemudian bergelar BPH Puruboyo. Ketika Sri Sultan HB VIII naik tahta, rumah ini diwariskan ke putrinya, GKR Pembayun, yang menikah dengan BPH Pakoeningrat, dari pernikahan itulah nama Dalem Pakuningratan melekat hingga hari ini.",
+      en: "The name changed more than once depending on who lived there. Built around the 1890s during the reign of Sri Sultan HB VII under the name Dalem Purbayan, its first occupant was GRM Sujadi, later titled BPH Puruboyo. When Sri Sultan HB VIII took the throne, the residence passed to his daughter, GKR Pembayun, who married BPH Pakoeningrat, and from that marriage came the name Dalem Pakuningratan, still used today.",
     },
     highlights: [
       { id: "Tur Tamansari didampingi pemandu resmi Tamansari", en: "Tamansari tour with an official Tamansari guide" },
@@ -185,8 +185,8 @@ export const experiences: Experience[] = [
       en: "From the Keraton's Pagelaran and Kedhaton, the journey continues to Dalem Benawan for warm apem straight from the kitchen and a hands-on batik session.",
     },
     story: {
-      id: "Rumah ini berdiri sejak 1877 di masa Sri Sultan HB VII, awalnya disebut Dalem Mangunnegaran karena dihuni GBPH Mangunnegara. Namanya berganti menjadi Dalem Benawan setelah KBPH Benawa, putra Sri Sultan HB VIII, menempatinya pada 1964 — dan keluarga GBPH Benowo yang meneruskannya masih tinggal di sana sampai sekarang.",
-      en: "Standing since 1877 during the reign of Sri Sultan HB VII, this residence was first called Dalem Mangunnegaran after its occupant, GBPH Mangunnegara. It became Dalem Benawan once KBPH Benawa, son of Sri Sultan HB VIII, moved in during 1964 — and the family of GBPH Benowo who succeeded him still lives there today.",
+      id: "Rumah ini berdiri sejak 1877 di masa Sri Sultan HB VII, awalnya disebut Dalem Mangunnegaran karena dihuni GBPH Mangunnegara. Namanya berganti menjadi Dalem Benawan setelah KBPH Benawa, putra Sri Sultan HB VIII, menempatinya pada 1964, dan keluarga GBPH Benowo yang meneruskannya masih tinggal di sana sampai sekarang.",
+      en: "Standing since 1877 during the reign of Sri Sultan HB VII, this residence was first called Dalem Mangunnegaran after its occupant, GBPH Mangunnegara. It became Dalem Benawan once KBPH Benawa, son of Sri Sultan HB VIII, moved in during 1964, and the family of GBPH Benowo who succeeded him still lives there today.",
     },
     highlights: [
       { id: "Tur Pagelaran Keraton Yogyakarta", en: "Keraton Yogyakarta Pagelaran tour" },
@@ -279,8 +279,8 @@ export const experiences: Experience[] = [
       en: "A visit to where the Kadipaten name began, closing with a workshop on wearing traditional Kraton attire at Dalem Mangkubumen.",
     },
     story: {
-      id: "Nama kelurahan Kadipaten sebenarnya berakar dari rumah ini. Didirikan antara 1865 dan 1886 untuk seorang Adipati Anom, putra mahkota di masa Sri Sultan HB VI, dalem ini awalnya disebut Dalem Kadipaten. Setelah sang putra mahkota naik tahta, rumah diteruskan ke KGPH Mangkubumi hingga 1918, kemudian adiknya KGPH Buminoto hingga 1928 — dan sejak masa itulah namanya berubah menjadi Dalem Mangkubumen.",
-      en: "The name of the Kadipaten neighborhood actually traces back to this residence. Built between 1865 and 1886 for an Adipati Anom, crown prince under Sri Sultan HB VI, it was first known as Dalem Kadipaten. After the crown prince ascended the throne, the residence passed to KGPH Mangkubumi until 1918, then his younger brother KGPH Buminoto until 1928 — and it was from that period the name changed to Dalem Mangkubumen.",
+      id: "Nama kelurahan Kadipaten sebenarnya berakar dari rumah ini. Didirikan antara 1865 dan 1886 untuk seorang Adipati Anom, putra mahkota di masa Sri Sultan HB VI, dalem ini awalnya disebut Dalem Kadipaten. Setelah sang putra mahkota naik tahta, rumah diteruskan ke KGPH Mangkubumi hingga 1918, kemudian adiknya KGPH Buminoto hingga 1928, dan sejak masa itulah namanya berubah menjadi Dalem Mangkubumen.",
+      en: "The name of the Kadipaten neighborhood actually traces back to this residence. Built between 1865 and 1886 for an Adipati Anom, crown prince under Sri Sultan HB VI, it was first known as Dalem Kadipaten. After the crown prince ascended the throne, the residence passed to KGPH Mangkubumi until 1918, then his younger brother KGPH Buminoto until 1928, and it was from that period the name changed to Dalem Mangkubumen.",
     },
     highlights: [
       { id: "Tur Pagelaran dan Kedhaton Keraton Yogyakarta", en: "Keraton Yogyakarta Pagelaran and Kedhaton tour" },
@@ -325,8 +325,8 @@ export const experiences: Experience[] = [
       en: "An afternoon of children's folk dance and a batik workshop at the residence still home to the GBPH Joyokusumo family.",
     },
     story: {
-      id: "Berusia lebih dari satu abad, dalem ini dibangun tahun 1916 pada masa Sri Sultan HB VII untuk RW Condrokusumo, sepupu sang sultan — karena itu sempat disebut Dalem Condrokusuman. Penghuni berikutnya adalah GBPH Bintoro, kerabat Sri Sultan HB IX, sebelum akhirnya pada 1988 ditempati GBPH Joyokusumo, adik Sri Sultan HB X, yang keturunannya masih menempati rumah ini sampai sekarang.",
-      en: "More than a century old, this residence was built in 1916 during the reign of Sri Sultan HB VII for RW Condrokusumo, a cousin of the sultan — hence its early name, Dalem Condrokusuman. It later passed to GBPH Bintoro, a relative of Sri Sultan HB IX, before being occupied in 1988 by GBPH Joyokusumo, younger brother of Sri Sultan HB X, whose descendants still live there today.",
+      id: "Berusia lebih dari satu abad, dalem ini dibangun tahun 1916 pada masa Sri Sultan HB VII untuk RW Condrokusumo, sepupu sang sultan, karena itu sempat disebut Dalem Condrokusuman. Penghuni berikutnya adalah GBPH Bintoro, kerabat Sri Sultan HB IX, sebelum akhirnya pada 1988 ditempati GBPH Joyokusumo, adik Sri Sultan HB X, yang keturunannya masih menempati rumah ini sampai sekarang.",
+      en: "More than a century old, this residence was built in 1916 during the reign of Sri Sultan HB VII for RW Condrokusumo, a cousin of the sultan, hence its early name, Dalem Condrokusuman. It later passed to GBPH Bintoro, a relative of Sri Sultan HB IX, before being occupied in 1988 by GBPH Joyokusumo, younger brother of Sri Sultan HB X, whose descendants still live there today.",
     },
     highlights: [
       { id: "Tur Pagelaran, Wahanarata, dan Kedhaton Keraton Yogyakarta", en: "Keraton Yogyakarta Pagelaran, Wahanarata, and Kedhaton tour" },
@@ -371,8 +371,8 @@ export const experiences: Experience[] = [
       en: "Try the jumputan tie-dye technique hands-on with craftspeople from the kampung around Kadipaten.",
     },
     story: {
-      id: "Di kampung-kampung sekitar Kadipaten, keterampilan mengikat dan mencelup kain jumputan terus diturunkan dari satu generasi ke generasi berikutnya. Dalam kelas ini Anda praktik langsung — mengikat kain, mencelupkannya ke pewarna, hingga membawa pulang hasil karya sendiri.",
-      en: "Across the kampung surrounding Kadipaten, the skill of tying and dyeing jumputan fabric keeps passing from one generation to the next. In this class you practice it yourself — tying the fabric, dyeing it, and taking home a piece you made.",
+      id: "Di kampung-kampung sekitar Kadipaten, keterampilan mengikat dan mencelup kain jumputan terus diturunkan dari satu generasi ke generasi berikutnya. Dalam kelas ini Anda praktik langsung, mengikat kain, mencelupkannya ke pewarna, hingga membawa pulang hasil karya sendiri.",
+      en: "Across the kampung surrounding Kadipaten, the skill of tying and dyeing jumputan fabric keeps passing from one generation to the next. In this class you practice it yourself, tying the fabric, dyeing it, and taking home a piece you made.",
     },
     highlights: [
       { id: "Praktik langsung mengikat dan mencelup kain jumputan", en: "Hands-on tying and dyeing of jumputan fabric" },
@@ -563,7 +563,7 @@ export const experiences: Experience[] = [
       en: "Learn the traditional miru kain folding technique and how to correctly wear Kraton Yogyakarta attire.",
     },
     story: {
-      id: "Sebelum busana adat lengkap dikenakan, ada keterampilan melipat kain secara tradisional yang disebut miru — sebuah langkah yang jarang diketahui pengunjung. Lokakarya ini membawa Anda memahami tata cara itu, hingga mengenakan busana adat Kraton Yogyakarta secara benar dan penuh makna.",
+      id: "Sebelum busana adat lengkap dikenakan, ada keterampilan melipat kain secara tradisional yang disebut miru, sebuah langkah yang jarang diketahui pengunjung. Lokakarya ini membawa Anda memahami tata cara itu, hingga mengenakan busana adat Kraton Yogyakarta secara benar dan penuh makna.",
       en: "Before a full set of traditional attire is worn, there's a lesser-known step: miru, the traditional skill of folding cloth. This workshop walks you through that process, then on to wearing Kraton Yogyakarta attire the correct and meaningful way.",
     },
     highlights: [
@@ -611,8 +611,8 @@ export const experiences: Experience[] = [
       en: "Step into a local kitchen and learn to cook Manuk Nom, the traditional dish that's become a Kadipaten signature.",
     },
     story: {
-      id: "Di beberapa dalem Kadipaten, Manuk Nom kerap dihidangkan lewat sesi open kitchen yang bisa disaksikan tamu. Kelas memasak ini membawa pengalaman itu lebih dekat — peserta praktik langsung meracik resep dan tekniknya bersama warga setempat.",
-      en: "Manuk Nom often appears in open-kitchen moments guests can watch at several Kadipaten dalem. This class brings that closer — participants cook the recipe and technique hands-on alongside local residents.",
+      id: "Di beberapa dalem Kadipaten, Manuk Nom kerap dihidangkan lewat sesi open kitchen yang bisa disaksikan tamu. Kelas memasak ini membawa pengalaman itu lebih dekat, peserta praktik langsung meracik resep dan tekniknya bersama warga setempat.",
+      en: "Manuk Nom often appears in open-kitchen moments guests can watch at several Kadipaten dalem. This class brings that closer, participants cook the recipe and technique hands-on alongside local residents.",
     },
     highlights: [
       { id: "Praktik memasak Manuk Nom dari awal hingga akhir", en: "Hands-on cooking of Manuk Nom from start to finish" },
@@ -748,8 +748,8 @@ export const experiences: Experience[] = [
       en: "Enjoy royal cuisine at Dalem Kaneman while a choice of Ramayana, Golek, Srimpi, or Menak dance plays out before you.",
     },
     story: {
-      id: "Di Dalem Kaneman, Royal Cuisine Kaneman Heritage menghadirkan hidangan bergaya kerajaan yang disantap sambil menyaksikan pertunjukan tari klasik pilihan — bisa Ramayana, Golek, Srimpi, atau Menak. Dua unsur budaya istana, kuliner dan seni pertunjukan, bertemu dalam satu meja makan.",
-      en: "At Dalem Kaneman, Royal Cuisine Kaneman Heritage serves royal-style dishes enjoyed alongside a choice of classical dance — Ramayana, Golek, Srimpi, or Menak. Two strands of palace culture, cuisine and performing arts, meet at the same table.",
+      id: "Di Dalem Kaneman, Royal Cuisine Kaneman Heritage menghadirkan hidangan bergaya kerajaan yang disantap sambil menyaksikan pertunjukan tari klasik pilihan, bisa Ramayana, Golek, Srimpi, atau Menak. Dua unsur budaya istana, kuliner dan seni pertunjukan, bertemu dalam satu meja makan.",
+      en: "At Dalem Kaneman, Royal Cuisine Kaneman Heritage serves royal-style dishes enjoyed alongside a choice of classical dance, Ramayana, Golek, Srimpi, or Menak. Two strands of palace culture, cuisine and performing arts, meet at the same table.",
     },
     highlights: [
       { id: "Menu santap kerajaan oleh Royal Cuisine Kaneman Heritage", en: "Royal-style dining menu by Royal Cuisine Kaneman Heritage" },
@@ -832,8 +832,8 @@ export const stories: Story[] = [
     slug: "budaya-yang-hidup",
     title: { id: "Budaya yang Hidup", en: "Living Culture" },
     excerpt: {
-      id: "Di Kadipaten, budaya bukan artefak di balik kaca — ia hidup dalam rutinitas harian abdi dalem, perajin, dan warga kampung.",
-      en: "In Kadipaten, culture isn't an artifact behind glass — it lives in the daily routines of palace attendants, craftspeople, and kampung residents.",
+      id: "Di Kadipaten, budaya bukan artefak di balik kaca, ia hidup dalam rutinitas harian abdi dalem, perajin, dan warga kampung.",
+      en: "In Kadipaten, culture isn't an artifact behind glass, it lives in the daily routines of palace attendants, craftspeople, and kampung residents.",
     },
     body: [
       {
@@ -841,8 +841,8 @@ export const stories: Story[] = [
         en: "Every morning, before the first visitors arrive, life in Kadipaten is already in motion: abdi dalem prepare for their duties, batik makers light their wax stoves, and angkringan vendors set up their stalls.",
       },
       {
-        id: "SAGOTRA percaya cerita ini layak diceritakan apa adanya — bukan sebagai pertunjukan untuk kamera, melainkan sebagai undangan untuk memahami cara hidup yang terus dijaga oleh komunitas Yogyakarta.",
-        en: "SAGOTRA believes this story deserves to be told honestly — not as a show for the camera, but as an invitation to understand a way of life that Yogyakarta's communities continue to care for.",
+        id: "SAGOTRA percaya cerita ini layak diceritakan apa adanya, bukan sebagai pertunjukan untuk kamera, melainkan sebagai undangan untuk memahami cara hidup yang terus dijaga oleh komunitas Yogyakarta.",
+        en: "SAGOTRA believes this story deserves to be told honestly, not as a show for the camera, but as an invitation to understand a way of life that Yogyakarta's communities continue to care for.",
       },
     ],
     topic: "living-culture",
@@ -874,13 +874,13 @@ export const stories: Story[] = [
     slug: "royal-kitchen-traditions",
     title: { id: "Tradisi Dapur Kerajaan", en: "Royal Kitchen Traditions" },
     excerpt: {
-      id: "Resep yang diwariskan turun-temurun menyimpan lebih dari sekadar rasa — ia menyimpan filosofi dan tata krama.",
-      en: "Recipes passed down through generations hold more than flavor — they hold philosophy and etiquette.",
+      id: "Resep yang diwariskan turun-temurun menyimpan lebih dari sekadar rasa, ia menyimpan filosofi dan tata krama.",
+      en: "Recipes passed down through generations hold more than flavor, they hold philosophy and etiquette.",
     },
     body: [
       {
         id: "Di dapur keluarga dalem, setiap bumbu memiliki takaran yang dijaga ketat, bukan hanya demi rasa, tetapi juga makna simbolis dalam penyajian untuk tamu.",
-        en: "In dalem family kitchens, every spice is measured with care — not only for flavor, but for the symbolic meaning behind how it's served to guests.",
+        en: "In dalem family kitchens, every spice is measured with care, not only for flavor, but for the symbolic meaning behind how it's served to guests.",
       },
     ],
     topic: "culinary",
@@ -940,8 +940,8 @@ export const stories: Story[] = [
         en: "Along Kadipaten's alleyways, resident-owned guesthouses and homestays range from the classic Astuti Guest House to the fully modern NOAH House. Some rent by the room, others rent out an entire house for a family group.",
       },
       {
-        id: "Menginap di sini bukan cuma soal tempat tidur — ini kesempatan bangun pagi mendengar suara kampung mulai bergerak, ngobrol dengan pemilik rumah, dan merasakan Kadipaten bukan sebagai turis yang lewat, tapi sebagai tamu yang diterima.",
-        en: "Staying here isn't just about a bed — it's a chance to wake up to the sound of the kampung stirring, chat with your host, and experience Kadipaten not as a passing tourist, but as a welcomed guest.",
+        id: "Menginap di sini bukan cuma soal tempat tidur, ini kesempatan bangun pagi mendengar suara kampung mulai bergerak, ngobrol dengan pemilik rumah, dan merasakan Kadipaten bukan sebagai turis yang lewat, tapi sebagai tamu yang diterima.",
+        en: "Staying here isn't just about a bed, it's a chance to wake up to the sound of the kampung stirring, chat with your host, and experience Kadipaten not as a passing tourist, but as a welcomed guest.",
       },
     ],
     topic: "people",
@@ -963,8 +963,8 @@ export const stories: Story[] = [
         en: "Angkringan Ngesengan RW 08 serves simple nasi kucing, while just steps away, Semanak Coffee & Eatery offers a modern café atmosphere. In between are Bakmi Gandhok, apem and gudeg vendors, and the legendary Siomay Mang Ujang.",
       },
       {
-        id: "Yang membuat kuliner Kadipaten istimewa bukan cuma rasanya, tapi kesempatan menyaksikan langsung proses memasaknya — mulai dari open kitchen di beberapa dalem hingga jajanan pasar yang dibuat di depan mata pengunjung.",
-        en: "What makes Kadipaten's food scene special isn't just the taste, but the chance to watch it being made — from open-kitchen moments at several dalem to market snacks prepared right in front of visitors.",
+        id: "Yang membuat kuliner Kadipaten istimewa bukan cuma rasanya, tapi kesempatan menyaksikan langsung proses memasaknya, mulai dari open kitchen di beberapa dalem hingga jajanan pasar yang dibuat di depan mata pengunjung.",
+        en: "What makes Kadipaten's food scene special isn't just the taste, but the chance to watch it being made, from open-kitchen moments at several dalem to market snacks prepared right in front of visitors.",
       },
     ],
     topic: "culinary",
@@ -977,8 +977,8 @@ export const stories: Story[] = [
     slug: "menjelajah-kadipaten-dari-dekat",
     title: { id: "Menjelajah Kadipaten dari Dekat", en: "Getting Around Kadipaten" },
     excerpt: {
-      id: "Si Thole, sepeda listrik, hingga sepeda onthel — begini caranya berpindah dari satu sudut Kadipaten ke sudut lainnya.",
-      en: "From the Si Thole shuttle to electric and vintage bicycles — here's how to move between Kadipaten's corners.",
+      id: "Si Thole, sepeda listrik, hingga sepeda onthel, begini caranya berpindah dari satu sudut Kadipaten ke sudut lainnya.",
+      en: "From the Si Thole shuttle to electric and vintage bicycles, here's how to move between Kadipaten's corners.",
     },
     body: [
       {
@@ -1005,12 +1005,12 @@ export const stories: Story[] = [
     },
     body: [
       {
-        id: "Dari Kelompok Tani Naga Asri di zona 1 hingga kawasan niaga batik di Dalem Pakuningratan pada zona 10, peta wisata Kadipaten menunjukkan bagaimana satu kelurahan bisa menyimpan begitu banyak wajah — mulai dari sentra kerajinan drumband dan kaos di Dalem Suryaputran, pusat pendidikan budaya Jawa di Dalem Purbanegaran, hingga Museum Kereta Karaton yang jadi rumah bagi jemparingan dan sepeda onthel.",
-        en: "From Kelompok Tani Naga Asri in zone 1 to the batik trading area at Dalem Pakuningratan in zone 10, Kadipaten's tourism map shows how a single neighborhood can hold so many faces — a drumband and t-shirt craft center at Dalem Suryaputran, a center for Javanese cultural education at Dalem Purbanegaran, and the Museum Kereta Karaton, home to jemparingan archery and vintage bicycles.",
+        id: "Dari Kelompok Tani Naga Asri di zona 1 hingga kawasan niaga batik di Dalem Pakuningratan pada zona 10, peta wisata Kadipaten menunjukkan bagaimana satu kelurahan bisa menyimpan begitu banyak wajah, mulai dari sentra kerajinan drumband dan kaos di Dalem Suryaputran, pusat pendidikan budaya Jawa di Dalem Purbanegaran, hingga Museum Kereta Karaton yang jadi rumah bagi jemparingan dan sepeda onthel.",
+        en: "From Kelompok Tani Naga Asri in zone 1 to the batik trading area at Dalem Pakuningratan in zone 10, Kadipaten's tourism map shows how a single neighborhood can hold so many faces, a drumband and t-shirt craft center at Dalem Suryaputran, a center for Javanese cultural education at Dalem Purbanegaran, and the Museum Kereta Karaton, home to jemparingan archery and vintage bicycles.",
       },
       {
-        id: "Setiap zona dikelola paguyuban dan kelompok warganya sendiri — dari Forum Bank Sampah hingga Paguyuban Seni Puspa Swara — bukti bahwa pariwisata di sini tumbuh dari inisiatif kampung, bukan dari atas ke bawah.",
-        en: "Each zone is run by its own community group — from the Waste Bank Forum to the Puspa Swara arts association — proof that tourism here grows from grassroots kampung initiative, not top-down planning.",
+        id: "Setiap zona dikelola paguyuban dan kelompok warganya sendiri, dari Forum Bank Sampah hingga Paguyuban Seni Puspa Swara, bukti bahwa pariwisata di sini tumbuh dari inisiatif kampung, bukan dari atas ke bawah.",
+        en: "Each zone is run by its own community group, from the Waste Bank Forum to the Puspa Swara arts association, proof that tourism here grows from grassroots kampung initiative, not top-down planning.",
       },
     ],
     topic: "living-culture",
@@ -1028,8 +1028,8 @@ export const faqs: Faq[] = [
       en: "How do I book a SAGOTRA experience?",
     },
     answer: {
-      id: "Kirim pertanyaan melalui WhatsApp atau formulir di halaman Rencanakan Kunjungan. Tim kami akan membalas dengan ketersediaan, harga, dan usulan itinerary — pemesanan online belum tersedia pada tahap ini.",
-      en: "Send an inquiry through WhatsApp or the form on the Plan Your Visit page. Our team will reply with availability, pricing, and a proposed itinerary — online booking isn't available at this stage.",
+      id: "Kirim pertanyaan melalui WhatsApp atau formulir di halaman Rencanakan Kunjungan. Tim kami akan membalas dengan ketersediaan, harga, dan usulan itinerary. Pemesanan online belum tersedia pada tahap ini.",
+      en: "Send an inquiry through WhatsApp or the form on the Plan Your Visit page. Our team will reply with availability, pricing, and a proposed itinerary. Online booking isn't available at this stage.",
     },
     category: "booking",
   },
@@ -1100,7 +1100,7 @@ export const partners: Partner[] = [
     permissionGranted: true,
   },
   {
-    name: "Gadri Resto — Prince Joyokusumo's House",
+    name: "Gadri Resto, Prince Joyokusumo's House",
     role: {
       id: "Mitra santap kerajaan di Dalem Joyokusuman",
       en: "Royal dining partner at Dalem Joyokusuman",
@@ -1252,7 +1252,7 @@ export const partners: Partner[] = [
     permissionGranted: true,
   },
   {
-    name: "Cepuri — Dalem Benawan Gallery",
+    name: "Cepuri, Dalem Benawan Gallery",
     role: {
       id: "Mitra galeri oleh-oleh di Dalem Benawan",
       en: "Souvenir gallery partner at Dalem Benawan",
