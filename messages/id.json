@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "siteName": "SAGOTRA",
-    "tagline": "Indonesia Tourism Ecosystem",
+    "tagline": "Mendigitalkan Ekosistem Pariwisata Indonesia",
     "defaultTitle": "SAGOTRA — Pengalaman Wisata Budaya Indonesia",
     "defaultDescription": "SAGOTRA menghadirkan warisan budaya, kesenian, kuliner, dan komunitas lokal Yogyakarta sebagai pengalaman wisata yang autentik dan bermakna."
   },
@@ -40,9 +40,9 @@
     "language": "Bahasa"
   },
   "Home": {
-    "heroEyebrow": "Indonesia Tourism Ecosystem",
+    "heroEyebrow": "Mendigitalkan Pariwisata Indonesia",
     "heroTitle": "Gerbang menuju pengalaman Indonesia yang bermakna",
-    "heroSubtitle": "SAGOTRA menghadirkan warisan, kesenian, kuliner, dan kehidupan komunitas Yogyakarta sebagai pengalaman yang saling terhubung — bukan sekadar daftar paket wisata.",
+    "heroSubtitle": "SAGOTRA memadukan teknologi dengan warisan budaya Yogyakarta — menghubungkan Anda ke pengalaman warisan, kesenian, kuliner, dan komunitas yang autentik, bukan sekadar daftar paket wisata.",
     "heroCtaPrimary": "Jelajahi Pengalaman",
     "heroCtaSecondary": "Tanya Kunjungan Anda",
     "featuredEyebrow": "Koleksi Peluncuran",
@@ -166,6 +166,8 @@
     "pageTitle": "Tentang SAGOTRA",
     "nameHeading": "Arti Nama SAGOTRA",
     "nameBody": "SAGOTRA merepresentasikan semangat kebersamaan dan kekerabatan — nilai yang kami temukan di setiap komunitas yang kami ajak bekerja sama.",
+    "digitalHeading": "Teknologi untuk Pariwisata yang Lebih Terhubung",
+    "digitalBody": "SAGOTRA mendigitalkan cara wisatawan menemukan dan menanyakan pengalaman budaya Indonesia — dari katalog pengalaman yang mudah dijelajahi, harga yang transparan, hingga proses tanya-jawab yang cepat lewat WhatsApp. Teknologi kami rancang untuk mempermudah jalan Anda menuju budaya, bukan menggantikan kehangatannya.",
     "mandalaHeading": "Mandala Pengalaman",
     "mandalaBody": "Mandala Pengalaman adalah kerangka kami dalam merangkai warisan, kesenian, kuliner, dan kehidupan komunitas menjadi satu perjalanan yang utuh dan bermakna.",
     "partnersHeading": "Komunitas & Mitra",

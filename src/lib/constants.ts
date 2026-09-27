@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "SAGOTRA",
-  tagline: "Indonesia Tourism Ecosystem",
+  tagline: "Digitalizing Indonesia's Tourism Ecosystem",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.sagotra.com",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "6281234567890",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "arsasagotra@gmail.com",

@@ -24,6 +24,11 @@ export default async function AboutPage() {
         </section>
 
         <section className="mt-10">
+          <h2 className="text-xl font-semibold text-[var(--color-deep-purple)]">{t("digitalHeading")}</h2>
+          <p className="mt-3 text-base leading-relaxed text-[var(--foreground)]/80">{t("digitalBody")}</p>
+        </section>
+
+        <section className="mt-10">
           <h2 className="text-xl font-semibold text-[var(--color-deep-purple)]">{t("mandalaHeading")}</h2>
           <p className="mt-3 text-base leading-relaxed text-[var(--foreground)]/80">{t("mandalaBody")}</p>
         </section>
