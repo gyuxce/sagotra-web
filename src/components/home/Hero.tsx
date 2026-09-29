@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { PlaceholderImage } from "@/components/shared/PlaceholderImage";
 import { buildGeneralInquiryMessage, buildWhatsAppLink } from "@/lib/whatsapp";
 import { WhatsAppButton } from "@/components/shared/WhatsAppButton";
 import type { Locale } from "@/i18n/routing";
@@ -33,7 +33,16 @@ export function Hero() {
         </div>
       </div>
 
-      <PlaceholderImage label="SAGOTRA di Kadipaten Yogyakarta" category="default" aspect="square" className="w-full" />
+      <div className="relative aspect-square w-full overflow-hidden rounded-2xl">
+        <Image
+          src="/hero-collage.jpg"
+          alt="Kumpulan momen pengalaman wisata SAGOTRA di Kadipaten Yogyakarta"
+          fill
+          priority
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          className="object-cover"
+        />
+      </div>
     </section>
   );
 }
